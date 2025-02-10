@@ -2,7 +2,6 @@
 import random
 import colorama
 
-# Initialize colorama for colored output
 colorama.init()
 
 # Color codes for feedback
@@ -16,9 +15,8 @@ GAME_OVER_COLOR = colorama.Fore.GREEN
 FINAL_SCORE_COLOR = colorama.Fore.BLUE
 
 # Import question modules (replace with your actual module names)
-from questions import science, history, math  # Assuming you have these files
+from questions import science, history, math  
 
-# Dictionary to map category names to their modules
 CATEGORIES = {
     "science": science,
     "history": history,
