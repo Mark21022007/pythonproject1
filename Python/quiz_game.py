@@ -1,10 +1,8 @@
-# quiz_game.py
 import random
 import colorama
 
 colorama.init()
 
-# Color codes for feedback
 CORRECT_COLOR = colorama.Fore.GREEN
 INCORRECT_COLOR = colorama.Fore.RED
 RESET_COLOR = colorama.Fore.RESET
@@ -14,7 +12,6 @@ WELCOME_COLOR = colorama.Fore.YELLOW
 GAME_OVER_COLOR = colorama.Fore.GREEN
 FINAL_SCORE_COLOR = colorama.Fore.BLUE
 
-# Import question modules (replace with your actual module names)
 from questions import science, history, math  
 
 CATEGORIES = {
